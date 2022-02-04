@@ -1,2 +1,4 @@
 # petclinic
-petclinic_test_homework
+
+To run:
+`python -m venv venv`
