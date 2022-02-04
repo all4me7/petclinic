@@ -90,7 +90,7 @@ def test_add_new_pet_to_owner():
 
 def test_get_a_list_of_pet_owners():
     response = requests.get(
-        URLS.pets,
+        URLS.owners,
         auth=(Setup.login, Setup.password),
         headers=Setup.headers,
     )
